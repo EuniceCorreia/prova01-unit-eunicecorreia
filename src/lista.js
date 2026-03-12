@@ -10,7 +10,7 @@ class ListaDeCompras {
     removerItem(item) {
         const index = this.itens.indexOf(item);
         if (index === -1) {
-            throw new Error("Item não encontrado na lista.");
+            throw new Error("Item não encontrado na lista de compras.");
         }
         this.itens.splice(index, 1);
     }
