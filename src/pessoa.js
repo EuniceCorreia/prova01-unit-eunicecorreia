@@ -5,7 +5,7 @@ class Pessoa {
     }
 
     apresentar() {
-        return `Olá, meu nome é ${this.nome} e eu tenho ${this.idade} anos. `;
+        return `Olá, meu nome é ${this.nome} e eu tenho ${this.idade} anos.`;
     }
 
     atualizarIdade(novaIdade) {
